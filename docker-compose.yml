@@ -1,0 +1,7 @@
+services:
+  anton-bot:
+    container_name: anton-bot
+    build: .
+    env_file: .env
+    restart: unless-stopped
+
